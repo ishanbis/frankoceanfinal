@@ -1,0 +1,71 @@
+/* CSS HEX FOR COLORS */
+/* --channel orange color: #c9cba3ff;
+--nostalgia ultra forest green: #ffe1a8ff;
+--blonde: #e26d5cff;
+ */
+
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Yrsa', serif;
+    background-color: rgb(241, 224, 211);
+}
+
+h1{
+    /* the above font is the backup one */
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 75px;
+    color: black;
+}
+
+h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Yrsa', serif;
+}
+
+
+.nav-link{
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    color:rgb(241, 213, 213);
+}
+
+.nav-link:hover{
+    color: rgb(104, 84, 66);
+    text-decoration: underline;
+}
+
+header{
+    background-color: #c9cba3ff;
+}
+
+/* nostalgia ultra styling  */
+
+.nosultra{
+    background-color: rgb(11, 81, 30);
+}
+
+/* channel orange styling  */
+
+.channelorange{
+    background-color: rgb(206, 90, 2);
+}
+
+/* blonde styling  */
+
+.blonde{
+    background-color: rgb(231, 231, 231);
+}
+
+
+@media only screen and (min-width: 800px){
+    /* for this, we should just have like an intro about frank then have the three albums inline */
+}
