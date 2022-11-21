@@ -17,40 +17,73 @@ h1{
     /* the above font is the backup one */
     font-family: 'DM Serif Display', serif;
     font-family: 'Rubik Dirt', cursive;
-    font-size: 75px;
+    font-size: 20vh;
+    text-align: center;
     color: black;
+    margin-top: 1rem;
+    margin-bottom: .75rem;
+    padding: 1rem;
 }
 
 h2{
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 35px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 10vh;
+    text-align: center;
+}
+
+footer h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2vh;
     text-align: center;
 }
 
 p{
     font-family: 'Yrsa', serif;
+    font-size: 4vh;
 }
 
-
-.nav-link{
-    font-family: 'Urbanist', sans-serif;
+a{
     text-decoration: none;
-    color:rgb(241, 213, 213);
-}
-
-.nav-link:hover{
-    color: rgb(104, 84, 66);
-    text-decoration: underline;
 }
 
 header{
     background-color: #c9cba3ff;
 }
 
+nav{
+    color:rgb(241, 213, 213);
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li{
+    color: black;
+    font-family: 'DM Serif Display', serif;
+    font-size: 6vh;
+    display: inline-block;
+    padding: 1.2rem;
+    text-decoration: none;
+}
+
+nav li a:link, nav li a:visited{
+    color: black;
+}
+
+a.current:link, nav li a.current:visited{
+    color: rgb(104, 84, 66);
+    font-style: italic;
+}
+
+nav li a:hover{
+    color: rgb(104, 84, 66);
+    text-decoration: underline;
+}
+
 /* nostalgia ultra styling  */
 
 .nosultra{
     background-color: rgb(11, 81, 30);
+    /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
 }
 
 /* channel orange styling  */
