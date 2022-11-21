@@ -79,6 +79,37 @@ nav li a:hover{
     text-decoration: underline;
 }
 
+.albuminfo{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.albuminfo h2{
+    font-size: 8vh;
+}
+
+.albuminfo li{
+    font-size: 6vh;
+}
+/* styles album cover on each page  */
+
+.albuminfo img{
+    width: 500px;
+    object-fit: contain;
+    align-self: center;
+    z-index: 2;
+}
+
+.albuminfo p{
+    font-size: 2vh;
+}
+
 /* nostalgia ultra styling  */
 
 .nosultra{
@@ -98,7 +129,16 @@ nav li a:hover{
     background-color: rgb(231, 231, 231);
 }
 
+@media only screen and (min-width: 900px){
+    /* for this, we should just have like an intro about frank then have the three albums inline */
+    .albuminfo{
+        flex-wrap: wrap;
+    }
+}
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 720px){
+    .albuminfo{
+        flex-wrap: wrap;
+    }
     /* for this, we should just have like an intro about frank then have the three albums inline */
 }
