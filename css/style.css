@@ -114,11 +114,11 @@ nav li a:hover{
 
 .nosultra{
     background-color: rgb(11, 81, 30);
-    color: white;
+    color: #F8F0C6;
     /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
 }
 .nostitle{
-    color: white;
+    color: #F8F0C6;
 }
 
 /* channel orange styling  */
