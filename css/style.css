@@ -79,6 +79,10 @@ nav li a:hover{
     text-decoration: underline;
 }
 
+.headerimage{
+    opacity: .8;
+}
+
 .albuminfo{
     display: flex;
     /* flex-wrap: nowrap; */
