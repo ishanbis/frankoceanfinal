@@ -136,8 +136,13 @@ nav li a:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform .2s;
 }
 
+.image:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
 
 /* nostalgia ultra styling  */
 
@@ -213,7 +218,7 @@ nav li a:hover{
         grid-column: 5 / -1;
         grid-row: 4 / 5;
     }
-    
+
 }
 
 @media only screen and (min-width: 720px){
