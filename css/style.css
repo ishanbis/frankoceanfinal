@@ -4,6 +4,10 @@
 --blonde: #e26d5cff;
  */
 
+ html{
+    scroll-behavior: smooth;
+ }
+
 body{
     font-family: 'DM Serif Display', serif;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -16,6 +20,25 @@ body{
     background-blend-mode: color-burn;
     text-align: center;
 }
+
+.skip a{
+    color: #F8F0C6;
+    background: rgb(11, 81, 30);
+    height: 20px;
+    padding: 8px;
+    opacity: 0;
+    border-radius: 10px;
+    z-index: 1;
+    text-align: start;
+  }
+  
+  .skip a:focus {
+    opacity: 1;
+  }
+
+  .skip:visited{
+    color: #b67e58;
+  }
 
 h1{
     /* the above font is the backup one */
@@ -43,9 +66,12 @@ h2{
 }
 
 footer h2{
+    background-color: #c9cba3ff;
     font-family: 'DM Serif Display', serif;
     font-size: 2vh;
     text-align: center;
+    padding: 2vh;
+    border-radius: 5px;
 }
 
 p{
@@ -127,6 +153,7 @@ nav li a:hover{
     object-fit: contain;
     align-self: center;
     z-index: 2;
+    box-shadow: 10px 15px 10px rgb(1, 1, 40);
 }
 
 .albuminfo p{
@@ -162,6 +189,23 @@ nav li a:hover{
     width: 90%;
 }
 
+/* nostalgia ultra styling  */
+
+.nosultra{
+    background-color: rgb(11, 81, 30);
+    color: #F8F0C6;
+    /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
+}
+.nostitle{
+    color: #F8F0C6;
+}
+
+/* channel orange styling  */
+
+.channelorange{
+    background-color: rgb(206, 90, 2);
+}
+
 .channelorangeimgs{
     justify-content: center;
     align-items: center;
@@ -178,22 +222,6 @@ nav li a:hover{
 
 .channelorangeimgs img:hover{
     width: 35%;
-}
-/* nostalgia ultra styling  */
-
-.nosultra{
-    background-color: rgb(11, 81, 30);
-    color: #F8F0C6;
-    /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
-}
-.nostitle{
-    color: #F8F0C6;
-}
-
-/* channel orange styling  */
-
-.channelorange{
-    background-color: rgb(206, 90, 2);
 }
 
 /* blonde styling  */
