@@ -200,6 +200,10 @@ nav li a:hover{
     color: #F8F0C6;
 }
 
+.nosultra footer{
+    color:rgb(1, 1, 40)
+}
+
 /* channel orange styling  */
 
 .channelorange{
@@ -217,6 +221,7 @@ nav li a:hover{
 .channelorangeimgs img{
     width: 30%;
     box-shadow: 10px 10px 10px rgb(22, 22, 65);
+    border-radius: 8px;
     transition: width 1s, height 1s;
 }
 
