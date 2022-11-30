@@ -27,6 +27,13 @@ h1{
     padding: 1rem;
 }
 
+.container h1{
+    text-align: left;
+    width: min-content;
+    position: relative;
+    padding-left: 25vh;
+}
+
 h2{
     font-family: 'DM Serif Display', serif;
     font-size: 10vh;
@@ -85,8 +92,12 @@ nav li a:hover{
     text-decoration: underline;
 }
 
-.headerimage{
-    opacity: .8;
+.container{
+    background-image: url(../homepageimages/frankoceanheader.jpg);
+    background-position-y: 10%;
+    width: 100%;
+    height: 400px;
+    align-items: center;
 }
 
 .albuminfo{
