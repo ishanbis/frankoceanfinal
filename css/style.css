@@ -118,12 +118,16 @@ nav li a:hover{
 }
 
 /* home images container grid */
-.homeimgs{
-    margin: 2%;
+.image{
     width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.homeimgs{
     display: grid;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 /* nostalgia ultra styling  */
