@@ -118,7 +118,11 @@ nav li a:hover{
 
 .nosultra{
     background-color: rgb(11, 81, 30);
+    color: #F8F0C6;
     /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
+}
+.nostitle{
+    color: #F8F0C6;
 }
 
 /* channel orange styling  */
@@ -130,7 +134,7 @@ nav li a:hover{
 /* blonde styling  */
 
 .blonde{
-    background-color: rgb(231, 231, 231);
+    background-color: #fceda9;
 }
 
 @media only screen and (min-width: 900px){
