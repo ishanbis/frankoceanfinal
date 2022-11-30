@@ -7,9 +7,10 @@
 body{
     font-family: 'DM Serif Display', serif;
     font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-family: 'Rubik Dirt', cursive;
     font-family: 'Rubik Glitch', cursive;
-    font-family: 'Yrsa', serif;
+    font-family: 'Alice', serif;
     background-color: rgb(241, 224, 211);
 }
 
@@ -38,8 +39,9 @@ footer h2{
 }
 
 p{
-    font-family: 'Yrsa', serif;
+    font-family: 'Alice', serif;
     font-size: 4vh;
+    font-weight: 400;
 }
 
 a{
@@ -58,7 +60,7 @@ nav{
 
 nav li{
     color: black;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Playfair Display SC', serif;
     font-size: 6vh;
     display: inline-block;
     padding: 1.2rem;
@@ -111,7 +113,7 @@ nav li a:hover{
 }
 
 .albuminfo p{
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 /* nostalgia ultra styling  */
