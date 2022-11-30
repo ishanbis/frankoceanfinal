@@ -48,6 +48,9 @@ a{
 
 header{
     background-color: #c9cba3ff;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 nav{
@@ -108,6 +111,15 @@ nav li a:hover{
 
 .albuminfo p{
     font-size: 2vh;
+}
+
+/* home images container grid */
+.homeimgs{
+    margin: 2%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* nostalgia ultra styling  */
