@@ -278,3 +278,24 @@ nav li a:hover{
     }
 }
 
+@media (prefers-reduced-motion){
+    .channelorangeimgs img{
+        width: 30%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+    }
+    
+    .channelorangeimgs img:hover{
+        width: 30%;
+    }
+
+    .homeimgs img{
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+        width: 85%;
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    .homeimgs img:hover{
+        width: 85%;
+    }
+}
