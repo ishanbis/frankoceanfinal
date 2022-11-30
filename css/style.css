@@ -12,6 +12,8 @@ body{
     font-family: 'Rubik Glitch', cursive;
     font-family: 'Alice', serif;
     background-color: rgb(241, 224, 211);
+    background-image: url(../homepageimages/grainbg.jpg);
+    background-blend-mode: color-burn;
     text-align: center;
 }
 
@@ -145,6 +147,7 @@ nav li a:hover{
     grid-template-rows: repeat(3, 0.5fr);
     margin-top: 10vh;
     justify-self: center;
+    align-content: center;
 }
 
 .homeimgs img{
@@ -251,7 +254,7 @@ nav li a:hover{
         grid-row: 2 / 4;
     }
     .img9{
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
         grid-row: 3 / 4;
     }
     .img6{
