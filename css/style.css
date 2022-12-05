@@ -196,6 +196,42 @@ nav li a:hover{
     justify-content: center;
 }
 
+.img1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.img2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.img3{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.img5{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.img4{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.img9{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.img6{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.img7{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.img8{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+}
 /* .homeimgs img:hover{
     width: 90%;
 }
