@@ -428,10 +428,10 @@ nav li a:hover{
 
 }
 
-@media only screen and (min-width: 720px){
+/* @media only screen and (min-width: 720px){
     .albuminfo{
         flex-wrap: wrap;
-}
+} */
 
 @media (prefers-reduced-motion){
     .channelorangeimgs img{
