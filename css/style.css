@@ -295,6 +295,10 @@ body.blonde{
 
 @media only screen and (min-width: 300px){
 
+    .tracklist{
+        margin-left: 8%;
+    }
+
     body.channelorange{
         background-blend-mode: normal;
         background-image: linear-gradient(rgb(229, 104, 8), #c9cba3ff);
@@ -314,7 +318,7 @@ body.blonde{
     }
 
     h1{
-        font-size: 8rem;
+        font-size: 16vh;
         align-self: center;
     }
 
@@ -322,7 +326,7 @@ body.blonde{
         text-align: center;
         align-items: center;
         width: fit-content;
-        font-size: 10rem;
+        font-size: 9rem;
         margin-bottom: 0;
     }
     .albuminfo{
