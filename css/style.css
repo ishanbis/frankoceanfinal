@@ -380,6 +380,9 @@ nav li a:hover{
         object-fit: cover;
         transition: width 1s, height 1s;
     }
+    h1{
+        font-size: 10vw;
+    }
     .image{
         transition: transform .2s;
     }
@@ -431,12 +434,20 @@ nav li a:hover{
 /* @media only screen and (min-width: 720px){
     .albuminfo{
         flex-wrap: wrap;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36281bca9bb54e9ffecc542ed95fcf82472e79ff
 } */
 
 @media (prefers-reduced-motion){
     .channelorangeimgs img{
         width: 30%;
         box-shadow: 10px 10px 10px rgb(22, 22, 65);
+    }
+    
+    .channelorangeimgs img:hover{
+        width: 30%;
     }
     
     .channelorangeimgs img:hover{
