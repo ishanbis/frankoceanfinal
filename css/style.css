@@ -18,7 +18,9 @@ body{
     background-color: rgb(241, 224, 211);
     background-image: url(../homepageimages/grainbg.jpg);
     background-blend-mode: color-burn;
-    text-align: center;
+    text-align: center; 
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .skip a{
@@ -32,7 +34,7 @@ body{
     text-align: start;
   }
   
-  .skip a:focus {
+  .skip a:focus { 
     opacity: 1;
   }
 
@@ -47,10 +49,9 @@ h1{
     font-size: 20vh;
     text-align: center;
     color: black;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: .75rem;
     padding: 2vh;
-    overflow-wrap: break-word;
 }
 
 .container h1{
@@ -86,6 +87,7 @@ a{
 
 header{
     background-color: #c9cba3ff;
+    width: 100%;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
@@ -108,6 +110,12 @@ nav li{
     display: inline-block;
     padding: 1.2rem;
     text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 nav li a:link, nav li a:visited{
@@ -154,6 +162,7 @@ nav li a:hover{
 .albuminfo li{
     font-size: 6vh;
 }
+
 /* styles album cover on each page  */
 
 .albuminfo img{
@@ -238,7 +247,7 @@ nav li a:hover{
 
 /* nostalgia ultra styling  */
 
-.nosultra{
+body.nosultra{
     background-color: rgb(11, 81, 30);
     color: #F8F0C6;
     /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
@@ -253,8 +262,8 @@ nav li a:hover{
 
 /* channel orange styling  */
 
-.channelorange{
-    background-color: rgb(206, 90, 2);
+body.channelorange{
+    background-color: rgb(226, 104, 11);
 }
 
 .channelorangeimgs{
@@ -278,18 +287,53 @@ nav li a:hover{
 
 /* blonde styling  */
 
-.blonde{
+body.blonde{
     background-color: #fceda9;
 }
 
+/* MOBILE VIEW MEDIA QUERY */
+
 @media only screen and (min-width: 680px){
+
+    body.channelorange{
+        background-blend-mode: normal;
+        background-image: linear-gradient(rgb(229, 104, 8), #c9cba3ff);
+        background-color: white;
+    }
+
+    body.nosultra{
+        background-blend-mode: normal;
+        background-image: linear-gradient(rgb(11, 81, 30), rgb(38, 46, 37));
+        background-color: white;
+    }
+
+    body.blonde{
+        background-blend-mode: normal;
+        background-image: linear-gradient(#fff6cc, #c9cba3ff);
+        background-color: white;
+    }
+
+    h1{
+        font-size: 8rem;
+        align-self: center;
+    }
+
     .container h1{
         text-align: center;
         align-items: center;
         width: fit-content;
+        font-size: 10rem;
+        margin-bottom: 0;
     }
     .albuminfo{
         flex-wrap: wrap;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    p{
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     /* for this, we should just have like an intro about frank then have the three albums inline */
     .homeimgs{
@@ -353,11 +397,63 @@ nav li a:hover{
     .hometext{
         padding: 3% 6%;
     }
+
+    .channelorangeimgs{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .channelorangeimgs img{
+        width: 90%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+        border-radius: 8px;
+        transition: width 1s, height 1s;
+    }    
+    
+    .channelorangeimgs img:hover{
+        width: 95%;
+    }
 }
 
 
+/* TABLET VIEW MEDIA QUERY  */
+
 @media only screen and (min-width: 900px){
-    /* for this, we should just have like an intro about frank then have the three albums inline */
+
+    body.nosultra{
+        background-color: rgb(11, 81, 30);
+        color: #F8F0C6;
+        background-image: url(../homepageimages/grainbg.jpg);
+        background-blend-mode: color-burn;
+        /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
+    }
+
+    body.channelorange{
+        background-color: rgb(226, 104, 11);
+        background-image: url(../homepageimages/grainbg.jpg);
+        background-blend-mode: color-burn;
+    }
+
+    .channelorangeimgs img{
+        width: 30%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+        border-radius: 8px;
+        transition: width 1s, height 1s;
+    }
+    
+    .channelorangeimgs img:hover{
+        width: 35%;
+    }
+
+    body.blonde{
+        background-color: #fceda9;
+        background-image: url(../homepageimages/grainbg.jpg);
+        background-blend-mode: color-burn;
+    }    
+
     .container h1{
         text-align: center;
         width: fit-content;
