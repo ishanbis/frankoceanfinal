@@ -293,7 +293,7 @@ body.blonde{
 
 /* MOBILE VIEW MEDIA QUERY */
 
-@media only screen and (min-width: 680px){
+@media only screen and (min-width: 300px){
 
     body.channelorange{
         background-blend-mode: normal;
@@ -421,7 +421,7 @@ body.blonde{
 
 /* TABLET VIEW MEDIA QUERY  */
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 800px){
 
     body.nosultra{
         background-color: rgb(11, 81, 30);
