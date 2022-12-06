@@ -294,6 +294,10 @@ body.blonde{
 
 @media only screen and (min-width: 250px){
 
+    .tracklist{
+        margin-left: 2vh;
+    }
+    
     body.channelorange{
         background-blend-mode: normal;
         background-image: linear-gradient(rgb(229, 104, 8), #c9cba3ff);
