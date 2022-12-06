@@ -380,6 +380,9 @@ nav li a:hover{
         object-fit: cover;
         transition: width 1s, height 1s;
     }
+    h1{
+        font-size: 10vw;
+    }
     .image{
         transition: transform .2s;
     }
@@ -441,15 +444,10 @@ nav li a:hover{
     .channelorangeimgs img{
         width: 30%;
         box-shadow: 10px 10px 10px rgb(22, 22, 65);
-<<<<<<< HEAD
     }
     
     .channelorangeimgs img:hover{
         width: 30%;
-=======
->>>>>>> c56469f72860c865331a2e6e9648c59219cb65b2
-=======
->>>>>>> 36281bca9bb54e9ffecc542ed95fcf82472e79ff
     }
     
     .channelorangeimgs img:hover{
