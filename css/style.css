@@ -244,7 +244,6 @@ nav li a:hover{
 /* .homeimgs img:hover{
     width: 90%;
 }
-
 /* nostalgia ultra styling  */
 
 body.nosultra{
@@ -293,11 +292,7 @@ body.blonde{
 
 /* MOBILE VIEW MEDIA QUERY */
 
-@media only screen and (min-width: 300px){
-
-    .tracklist{
-        margin-left: 8%;
-    }
+@media only screen and (min-width: 680px){
 
     body.channelorange{
         background-blend-mode: normal;
@@ -318,7 +313,7 @@ body.blonde{
     }
 
     h1{
-        font-size: 16vh;
+        font-size: 8rem;
         align-self: center;
     }
 
@@ -326,7 +321,7 @@ body.blonde{
         text-align: center;
         align-items: center;
         width: fit-content;
-        font-size: 9rem;
+        font-size: 10rem;
         margin-bottom: 0;
     }
     .albuminfo{
@@ -425,7 +420,7 @@ body.blonde{
 
 /* TABLET VIEW MEDIA QUERY  */
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
 
     body.nosultra{
         background-color: rgb(11, 81, 30);
@@ -530,15 +525,6 @@ body.blonde{
     }
 
 }
-
-/* @media only screen and (min-width: 720px){
-    .albuminfo{
-        flex-wrap: wrap;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 36281bca9bb54e9ffecc542ed95fcf82472e79ff
-} */
 
 @media (prefers-reduced-motion){
     .channelorangeimgs img{
