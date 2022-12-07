@@ -333,7 +333,7 @@ body.blonde{
         text-align: center;
         align-items: center;
         width: fit-content;
-        font-size: 10rem;
+        font-size: 6rem;
         margin-bottom: 0;
     }
     .albuminfo{
@@ -454,6 +454,9 @@ body.blonde{
         object-fit: cover;
         transition: width 1s, height 1s;
     }
+    .container h1{
+        font-size: 8rem;
+    }
     .image{
         transition: transform .2s;
     }
@@ -562,6 +565,7 @@ body.blonde{
         width: fit-content;
         padding-left: 25vh;
         left: 25vh;
+        font-size: 10rem;
     }
     .homeimgs{
         display: grid;
