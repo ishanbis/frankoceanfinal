@@ -499,6 +499,25 @@ body.blonde{
     h1{
         font-size: 10vw;
     }
+
+    .channelorangeimgs{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .channelorangeimgs img{
+        width: 40%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+        border-radius: 8px;
+        transition: width 1s, height 1s;
+    }
+    
+    .channelorangeimgs img:hover{
+        width: 40%;
+    }
 }
 
 @media only screen and (min-width: 900px){
