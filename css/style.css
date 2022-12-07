@@ -316,6 +316,10 @@ body.blonde{
         background-color: white;
     }
 
+    .altblonde{
+        width: 40%;
+    }
+
     h1{
         font-size: 8rem;
         align-self: center;
@@ -456,6 +460,10 @@ body.blonde{
         background-image: url(../homepageimages/grainbg.jpg);
         background-blend-mode: color-burn;
     }    
+
+    .altblonde{
+        width: 50%;
+    }
 
     .container h1{
         text-align: center;
