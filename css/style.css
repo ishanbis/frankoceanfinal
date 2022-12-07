@@ -177,6 +177,10 @@ nav li a:hover{
     font-size: 4vh;
 }
 
+.albumpic{
+    padding: 5px;
+}
+
 /* home images container grid */
 .image{
     width: 100%;
@@ -317,7 +321,7 @@ body.blonde{
     }
 
     h1{
-        font-size: 8rem;
+        font-size: 15vw;
         align-self: center;
     }
 
@@ -341,19 +345,116 @@ body.blonde{
     /* for this, we should just have like an intro about frank then have the three albums inline */
     .homeimgs{
         display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(3, 1fr); */
+        justify-self: center;
+        align-content: center;
+        gap: 10px;
+        padding: 1% 3%;
+    }
+    .homeimgs img{
+        box-shadow: 10px 10px 10px rgb(87, 19, 56);
+        width: 100%;
+        /* we can make width 85 or 95 or 100 for different effects, all look cool to me but high numbers seem to make the grid look more centered */
+        /* height: 1fr; */
+        object-fit: cover;
+        transition: width 1s, height 1s;
+        justify-content: center;
+    }
+    .img1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .img2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .img3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .img5{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .img4{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .img9{
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+    }
+    .img6{
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+    }
+    .img7{
+        grid-column: 1 / 2;
+        grid-row: 8 / 9;
+    }
+    .img8{
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
+    }
+    /* .homeimgs img:hover{
+        width: 95%;
+    } */
+    .hometext{
+        padding: 3% 6%;
+    }
+
+    .channelorangeimgs{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .channelorangeimgs img{
+        width: 90%;
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
+        border-radius: 8px;
+        transition: width 1s, height 1s;
+    }    
+    
+    .channelorangeimgs img:hover{
+        width: 95%;
+    }
+}
+
+
+/* TABLET VIEW MEDIA QUERY  */
+
+@media only screen and (min-width: 680px){
+    body.nosultra{
+        background-color: rgb(11, 81, 30);
+        color: #F8F0C6;
+        background-image: url(../homepageimages/grainbg.jpg);
+        background-blend-mode: color-burn;
+        /* either have to change this bg color or change font color -- i kinda love the forest green but idrc fr */
+    }
+    .homeimgs{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* grid-template-rows: repeat(4, 1fr); */
         grid-gap: 5px;
         padding: 2% 5% 2%;
         margin: auto;
     }
     .homeimgs img{
-        box-shadow: 10px 10px 10px rgb(67, 82, 47);
+        box-shadow: 10px 10px 10px rgb(22, 22, 65);
         width: 90%;
         /* we can make width 85 or 95 or 100 for different effects, all look cool to me but high numbers seem to make the grid look more centered */
         /* height: 1fr; */
         object-fit: cover;
         transition: width 1s, height 1s;
+    }
+    .image{
+        transition: transform .2s;
+    }
+    .homeimgs img:hover{
+        width: 95%;
     }
     .img1{
         grid-column: 1 / 2;
@@ -391,38 +492,10 @@ body.blonde{
         grid-column: 2 / -1;
         grid-row: 7 / 8;
     }
-    .image{
-        transition: transform .2s;
-    }
-    .homeimgs img:hover{
-        width: 95%;
-    }
-    .hometext{
-        padding: 3% 6%;
-    }
-
-    .channelorangeimgs{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .channelorangeimgs img{
-        width: 90%;
-        box-shadow: 10px 10px 10px rgb(22, 22, 65);
-        border-radius: 8px;
-        transition: none;
-    }    
-    
-    .channelorangeimgs img:hover{
-        width: 90%;
+    h1{
+        font-size: 10vw;
     }
 }
-
-
-/* TABLET VIEW MEDIA QUERY  */
 
 @media only screen and (min-width: 900px){
 
@@ -444,11 +517,11 @@ body.blonde{
         width: 30%;
         box-shadow: 10px 10px 10px rgb(22, 22, 65);
         border-radius: 8px;
-        transition: none;
+        transition: width 1s, height 1s;
     }
     
     .channelorangeimgs img:hover{
-        width: 30%;
+        width: 35%;
     }
 
     body.blonde{
