@@ -413,11 +413,11 @@ body.blonde{
         width: 90%;
         box-shadow: 10px 10px 10px rgb(22, 22, 65);
         border-radius: 8px;
-        transition: width 1s, height 1s;
+        transition: none;
     }    
     
     .channelorangeimgs img:hover{
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -444,11 +444,11 @@ body.blonde{
         width: 30%;
         box-shadow: 10px 10px 10px rgb(22, 22, 65);
         border-radius: 8px;
-        transition: width 1s, height 1s;
+        transition: none;
     }
     
     .channelorangeimgs img:hover{
-        width: 35%;
+        width: 30%;
     }
 
     body.blonde{
